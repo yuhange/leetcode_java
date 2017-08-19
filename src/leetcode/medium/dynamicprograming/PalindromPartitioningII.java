@@ -9,5 +9,5 @@ package leetcode.medium.dynamicprograming;
  Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 cut.
  */
 public class PalindromPartitioningII {
-    
+
 }
