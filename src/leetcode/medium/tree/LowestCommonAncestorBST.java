@@ -15,5 +15,13 @@ package leetcode.medium.tree;
  For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
  */
 public class LowestCommonAncestorBST {
-
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if(root == p) return p;
+        if(root == q) return q;
+        if(root == null) return null;
+        if(root.val > p.val && root.val < q.val) return root;
+        if(root.val > p.val && root.val > q.val) return lowestCommonAncestor(root.left, p, q);
+        if(root.val < p.val && root.val < q.val) return lowestCommonAncestor(root.right, p, q);
+        return root;
+    }
 }
