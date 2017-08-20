@@ -108,14 +108,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumBinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaximumBinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/tree/MaximumBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9157895" vertical-offset="774" max-vertical-offset="1488">
+            <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1488">
               <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="e#817#835#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShoppingOffers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/ShoppingOffers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.57894737" vertical-offset="438" max-vertical-offset="1008">
+              <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/medium/string/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/binarysearch/DivideTwoIntegers.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/array/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/recursive/LetterCombinationsofPhoneNumber.java" />
@@ -176,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/medium/dfs/FriendCircles.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/tree/PrintBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/tree/MaximumBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/ShoppingOffers.java" />
       </list>
     </option>
   </component>
@@ -1036,15 +1046,15 @@
       <workItem from="1503013429264" duration="904000" />
       <workItem from="1503057028335" duration="148000" />
       <workItem from="1503104178203" duration="15476000" />
-      <workItem from="1503202563817" duration="2455000" />
+      <workItem from="1503202563817" duration="3283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121004000" />
+    <option name="totallyTimeSpent" value="121832000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1103,13 +1113,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/array/FourSumII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/array/SearchRotatedSortedArrayII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1032">
@@ -1471,11 +1474,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/tree/MaximumBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9157895" vertical-offset="774" max-vertical-offset="1488">
+        <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1488">
           <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="e#817#835#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/ShoppingOffers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57894737" vertical-offset="438" max-vertical-offset="1008">
+          <caret line="32" column="97" selection-start-line="32" selection-start-column="97" selection-end-line="32" selection-end-column="97" />
+          <folding />
         </state>
       </provider>
     </entry>
