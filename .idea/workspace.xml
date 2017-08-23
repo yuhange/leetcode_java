@@ -99,28 +99,28 @@
       <file leaf-file-name="OddEvenLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/list/OddEvenLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1056">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CopyListWithRandomPointer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/list/CopyListWithRandomPointer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24699828" vertical-offset="0" max-vertical-offset="583">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveZeroes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/array/MoveZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84210527" vertical-offset="0" max-vertical-offset="672">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PermutationInString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/string/PermutationInString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="1080">
-              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -131,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/medium/recursive/PalindromePartitioning.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/recursive/PalindromePartitioningII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/PalindromPartitioningII.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/MaximumSubarray.java" />
@@ -180,8 +179,9 @@
         <option value="$PROJECT_DIR$/src/leetcode/medium/array/RemoveDuplicatesfromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/list/RemoveLinkedListNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/list/DeleteNodeInALinkedList.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/medium/list/OddEvenLinkedList.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/array/MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/list/OddEvenLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/list/CopyListWithRandomPointer.java" />
       </list>
     </option>
   </component>
@@ -419,6 +419,32 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="list" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobHunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobHunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CopyListWithRandomPointer.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1060,12 +1086,12 @@
       <workItem from="1503232967028" duration="2286000" />
       <workItem from="1503318195669" duration="2127000" />
       <workItem from="1503400215415" duration="3400000" />
-      <workItem from="1503452755554" duration="12205000" />
+      <workItem from="1503452755554" duration="13357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143037000" />
+    <option name="totallyTimeSpent" value="144189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1127,13 +1153,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/UniquePathsII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/UniqueBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="768">
@@ -1558,18 +1577,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/list/OddEvenLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/array/MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/array/MoveZeroes.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/list/OddEvenLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84210527" vertical-offset="0" max-vertical-offset="672">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1056">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/list/CopyListWithRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24699828" vertical-offset="0" max-vertical-offset="583">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>

@@ -14,4 +14,25 @@ package leetcode.medium.list;
  The first node is considered odd, the second node even and so on ...
  */
 public class OddEvenLinkedList {
+    public ListNode oddEvenList(ListNode head) {
+        if(head == null || head.next == null) return head;
+        ListNode odd = new ListNode(Integer.MIN_VALUE);
+        ListNode oddH = odd;
+        ListNode even = new ListNode(Integer.MIN_VALUE);
+        ListNode evenH = even;
+        int cnt = 1;
+        while(head != null) {
+            if(cnt % 2 == 1) {
+                odd.next = head; odd = odd.next;
+            } else {
+                even.next = head; even = even.next;
+            }
+            head = head.next;
+            cnt ++;
+        }
+        even.next = null;
+        // System.out.println(evenH.val);
+        odd.next = evenH.next;
+        return oddH.next;
+    }
 }
