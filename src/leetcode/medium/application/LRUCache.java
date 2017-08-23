@@ -1,11 +1,13 @@
 package leetcode.medium.application;
 
 import java.util.*;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Created by lenovo on 2017/8/20.
  */
 public class LRUCache {
+//    ThreadPoolExecutor
     private Map<Integer, Integer> list;
     private int cap;
 
