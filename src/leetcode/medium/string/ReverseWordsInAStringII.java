@@ -13,7 +13,7 @@ package leetcode.medium.string;
  */
 public class ReverseWordsInAStringII {
     public void reverseWords(char[] c) {
-        reverse(c, 0, c.length);
+        reverse(c, 0, c.length - 1);
         int i = 0;
         int j = 0;
         while(i < c.length && j < c.length) {

@@ -1,23 +1,19 @@
 package leetcode.medium.string;
 
 /**
- * Given an input string, reverse the string word by word.
+ * Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 
- For example,
- Given s = "the sky is blue",
- return "blue is sky the".
-
- Update (2015-02-12):
- For C programmers: Try to solve it in-place in O(1) space.
+ Example 1:
+ Input: "Let's take LeetCode contest"
+ Output: "s'teL ekat edoCteeL tsetnoc"
+ Note: In the string, each word is separated by single space and there will not be any extra space in the string.
  */
-public class ReverseWordsInAString {
+public class ReverseWordsInAStringIII {
     public String reverseWords(String s) {
         int n = s.length();
         if(n <= 1) return s;
-        char[] c = s.toCharArray();
-        reverse(c, 0, n - 1);
         String res = "";
-        String[] ss = new String(c).split("\\s+");
+        String[] ss = s.split("\\s+");
         for(int i = 0; i<ss.length; i++) {
             char[] cc = ss[i].toCharArray();
             reverse(cc, 0, cc.length - 1);
@@ -35,10 +31,5 @@ public class ReverseWordsInAString {
             i ++;
             j --;
         }
-    }
-
-    public static void main(String[] args) {
-        ReverseWordsInAString r = new ReverseWordsInAString();
-        System.out.print(r.reverseWords("the sky is blue"));
     }
 }
