@@ -39,53 +39,64 @@ import java.util.*;
 
  */
 public class HDU1879 {
+    static int[] p;
+    static int count = 0;
+    static PriorityQueue<Node> edges = new PriorityQueue<Node>();
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean[] visited;
-        HashSet<Integer> set;
         while(scanner.hasNext()) {
-            int n = scanner.nextInt();
+            int n = scanner.nextInt(); // 村庄数目
             if(n == 0) return;
-            set = new HashSet<Integer>();
-            int[][] edges = new int[n+1][n+1];
-            int[][] hasRoad = new int[n+1][n+1];
-            visited = new boolean[n+1];
+            int m = n*(n-1)/2; // 道路数目
+            p = new int[105];
+            init();
             int sum = 0;
-            for(int i = 0; i<n*(n-1)/2; i++) {
+            for(int i = 0; i<m; i++) {
                 int x = scanner.nextInt();
                 int y = scanner.nextInt();
                 int cost = scanner.nextInt();
-                int has = scanner.nextInt();;
-                edges[x][y] = cost;
-                edges[y][x] = cost;
-                hasRoad[x][y] = has;
-                hasRoad[y][x] = has;
-                if(has == 1) {
-                    visited[x] = true;
-                    visited[y] = true;
-                    set.add(x);
-                    set.add(y);
-                    sum += edges[x][y];
+                int has = scanner.nextInt();
+                if (has == 1) {
+                    if (find(x) != find(y)) {
+                        union(x, y);
+                    }
+                } else {
+                    edges.offer(new Node(x, y, cost));
                 }
             }
-            while(set.size() != n) {
-                for(int node: set) {
-System.out.println(node);
-                    int min = Integer.MAX_VALUE;
-                    int minNode = node;
-                    for(int i = 1; i!=node && i<=n; i++) {
-                        if(set.contains(i) == false) {
-                            if(min > edges[i][node]) {
-                                min = edges[i][node];
-                                minNode = node;
-                            }
-                        }
-                    }
-                    set.add(minNode);
-                    sum += edges[minNode][node];
+            int count = 0;
+            while(!edges.isEmpty()) {
+                Node e = edges.poll();
+                if(find(e.u) != find(e.v)) {
+                    union(e.u, e.v);
+                    sum += e.cost;
+                    count ++;
+                }
+                if(count == n - 1) {
+                    break;
                 }
             }
             System.out.println(sum);
         }
+    }
+
+    private static void union(int x, int y) {
+        int X = find(x);
+        int Y = find(y);
+        if(X != Y) {
+            p[X] = p[Y];
+        }
+    }
+
+    private static void init() {
+        for(int i = 0; i<105; i++) p[i] = i;
+        count = 0;
+    }
+
+    private static int find(int x) {
+        while(p[x] != x) {
+            x = p[x];
+        }
+        return x;
     }
 }
