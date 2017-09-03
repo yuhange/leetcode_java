@@ -43,8 +43,6 @@ import java.util.*;
 public class HDU1010 {
     static int count = Integer.MAX_VALUE;
     static boolean[][] visited;
-    static int[][] t = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    static boolean flag = false;
     static int endX;
     static int endY;
     static int row, col, time;
@@ -70,51 +68,47 @@ public class HDU1010 {
                         startX = i;
                         startY = j;
                     }
-                    if(maze[i][j] == 'D') {
+                    else if(maze[i][j] == 'D') {
                         endX = i;
                         endY = j;
                     }
-                    if(maze[i][j] == 'X') {
+                    else if(maze[i][j] == 'X') {
                         walls ++;
                     }
                 }
             }
             if(row * col - walls <= time) {
                 System.out.println("NO");
-                continue;
-            }
-            visited[startX][startY] = true;
-            flag = false;
-            dfs(startX, startY, 0);
-            if(flag) {
-                System.out.println("YES");
             } else {
-                System.out.println("NO");
+                boolean ok = dfs(startX, startY, 0);
+                if (ok) {
+                    System.out.println("YES");
+                } else {
+                    System.out.println("NO");
+                }
             }
         }
     }
 
-    private static void dfs(int startX, int startY,
-             int cnt) {
-        if(startX == endX && startY == endY && cnt == time) {
-            flag = true;
-            return;
+    private static boolean dfs(int startX, int startY, int cnt) {
+        if(startX < 0 || startX >= row || startY < 0 || startY >= col) return false;
+        if(cnt > time) return false;
+        if(maze[startX][startY] == 'X') return false;
+        if(visited[startX][startY] == true) return false;
+        int tmp = (time - cnt) + (Math.abs(startX - endX) + Math.abs(startY - endY));
+        if(tmp % 2 == 1) {
+            return false;
         }
-        if(flag) return;
-        int tmp = (time - cnt) - (Math.abs(startX - endX) + Math.abs(startY - endY));
-        if(tmp < 0 || (tmp & 1) != 0) {
-            return;
+        if(maze[startX][startY] == 'D') {
+            if(cnt == time) return true;
+            else return false;
         }
-        for(int i = 0; i<4; i++) {
-            startX = startX + t[i][0];
-            startY = startY + t[i][1];
-            if(startX >= 0 && startX < row && startY >= 0 && startY < col
-                    && maze[startX][startY] != 'X' &&
-                    visited[startX][startY] == false) {
-                visited[startX][startY] = true;
-                dfs(startX, startY, cnt + 1);
-                visited[startX][startY] = false;
-            }
-        }
+        visited[startX][startY] = true;
+        boolean ok = dfs(startX + 1, startY, cnt + 1) ||
+                dfs(startX - 1, startY, cnt + 1) ||
+                dfs(startX, startY + 1, cnt + 1) ||
+                dfs(startX, startY - 1, cnt + 1);
+        visited[startX][startY] = false;
+        return ok;
     }
 }
