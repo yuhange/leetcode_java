@@ -21,14 +21,15 @@ public class JustTest {
     }
 
     private int dfs(int i, int j, int count, int k) {
-        if(i < 0 || i >= m || j < 0 || j >= n) return count;
-        if(maze[i][j] > k) return count;
-        if(maze[i][j] == -1) return count;
-        int tmp = maze[i][j];
+        System.out.println(i+" "+j+" "+count);
+        if(i < 0 || i >= m || j < 0 || j >= n) return 0;
+        if(maze[i][j] > k) return 0;
+        if(maze[i][j] == -1) return 0;
         maze[i][j] = -1;
-        int res = dfs(i+1, j, count+1, k) + dfs(i-1, j, count+1, k)
-                + dfs(i, j+1, count+1, k) + dfs(i, j-1, count+1, k);
-        maze[i][j] = tmp;
+        int res = 1 + dfs(i+1, j, count+1, k) +
+                dfs(i-1, j, count+1, k) +
+                dfs(i, j+1, count+1, k) +
+                dfs(i, j-1, count+1, k);
         return res;
     }
 
