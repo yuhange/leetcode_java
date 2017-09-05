@@ -35,4 +35,15 @@ public class PeekingIterator implements Iterator<Integer> {
         if(after == null) return false;
         return true;
     }
+
+    public static void main(String[] args) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(1);
+        list.add(2);
+        PeekingIterator ite = new PeekingIterator(list.iterator());
+        while(ite.hasNext()) {
+            System.out.println(ite.peek());
+            ite.next();
+        }
+    }
 }
