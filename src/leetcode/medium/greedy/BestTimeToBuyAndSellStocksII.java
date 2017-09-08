@@ -17,7 +17,6 @@ public class BestTimeToBuyAndSellStocksII {
             int cur = prices[i];
             int j = i + 1;
             while(j < n && prices[j] > prices[j - 1]) j ++; // 局部递增
-            // System.out.println(cur + " " + prices[j - 1]);
             sum += Math.max(prices[j - 1] - cur, 0);
             i = j;
         }
