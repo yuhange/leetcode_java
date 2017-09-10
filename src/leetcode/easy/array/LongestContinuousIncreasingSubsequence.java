@@ -1,4 +1,4 @@
-package leetcode.easy.tree.array;
+package leetcode.easy.array;
 
 /**
  * Created by lenovo on 2017/9/10.
