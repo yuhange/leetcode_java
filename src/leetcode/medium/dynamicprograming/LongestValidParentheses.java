@@ -9,32 +9,29 @@ package leetcode.medium.dynamicprograming;
  */
 public class LongestValidParentheses {
     public int longestValidParentheses(String s) {
-        if (s == null) return 0;
+        if(s == null) return 0;
         int n = s.length();
-        if (n <= 1) return 0;
+        if(n <= 1) return 0;
         char[] c = s.toCharArray();
-        boolean[][] dp = new boolean[n][n];
+        int[] dp = new int[n];
+        dp[0] = 0;
         int max = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            dp[i][i] = false;
-            for (int j = i; j < n; j++) {
-                // System.out.println(i + " " + j);
-                if (j == (i + 1)) dp[i][j] = (c[i] == '(' && c[j] == ')');
-                else if ((j - i) % 2 == 0) dp[i][j] = false;
-                else {
-                    dp[i][j] = (c[i] == '(' && c[j] == ')' && dp[i + 1][j - 1] == true);
-                    if (dp[i][j] == false) {
-                        for (int k = i; k <= j; k++) {
-                            if (dp[i][k] == true && dp[k + 1][j] == true) {
-                                dp[i][j] = true;
-                                break;
-                            }
-                        }
-                    }
+        for(int i = 1; i<n; i++) {
+            if(c[i] == ')') {
+                if(c[i-1] == '(') {
+                    dp[i] = ((i - 2) >= 0 ? dp[i-2] : 0) + 2;
+                } else if(c[i-1] == ')') {
+                    if(i - dp[i-1] - 1 >= 0 && c[i - dp[i-1] - 1] == '(')
+                        dp[i] = dp[i-1] + 2 + ((i - dp[i-1] - 2) >= 0 ? dp[i - dp[i-1] - 2] : 0);
                 }
-                if (dp[i][j] == true) max = Math.max(max, (j - i + 1));
+                max = Math.max(max, dp[i]);
             }
         }
+        // for(int i = 0; i<n; i++) {
+        //     for(int j = 0; j<n; j++) {
+        //         if(dp[i][j] == true) System.out.println(i + " " + j);
+        //     }
+        // }
         return max;
     }
 }
