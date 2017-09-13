@@ -50,9 +50,7 @@ public class MinimumHeightTrees {
             q.offer(i);
             while(!q.isEmpty()) {
                 int vertex = q.poll();
-                for(int i = 0; i<edges.length; i++) {
-                    if()
-                }
+
             }
         }
         return res;
