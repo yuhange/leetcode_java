@@ -31,16 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/LongestIncreasingSubsequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="696" max-vertical-offset="912">
-              <caret line="29" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="29" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IncreasingTripletSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/IncreasingTripletSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,9 +44,10 @@
       <file leaf-file-name="MaximumLengthofPairChain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/MaximumLengthofPairChain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1104">
+            <state vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="1080">
               <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="e#912#913#0" expanded="false" />
                 <element signature="e#964#965#0" expanded="false" />
               </folding>
@@ -117,21 +108,29 @@
       <file leaf-file-name="TopKFrequentElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/array/TopKFrequentElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="984">
+            <state vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="1128">
               <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurroundedRegions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SurroundedRegions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/broadfirstsearch/SurroundedRegions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7157895" vertical-offset="1320" max-vertical-offset="2160">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-              <folding>
-                <element signature="e#1317#1324#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2160">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestValidParentheses.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/LongestValidParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6210526" vertical-offset="318" max-vertical-offset="1104">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hdu/HDU1233.java" />
         <option value="$PROJECT_DIR$/src/hdu/HDU1863.java" />
         <option value="$PROJECT_DIR$/src/hdu/HDU1879.java" />
         <option value="$PROJECT_DIR$/src/hdu/HDU1003.java" />
@@ -192,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/medium/string/RepeatedDNASequences.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/array/TopKFrequentElements.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/broadfirstsearch/SurroundedRegions.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/LongestValidParentheses.java" />
       </list>
     </option>
   </component>
@@ -229,6 +228,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,6 +314,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="dynamicprograming" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobHunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JobHunting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leetcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="medium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="broadfirstsearch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -341,8 +368,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -819,12 +844,13 @@
       <workItem from="1504922035596" duration="16491000" />
       <workItem from="1504966426855" duration="40000" />
       <workItem from="1505007652980" duration="15828000" />
-      <workItem from="1505132530766" duration="1535000" />
+      <workItem from="1505132530766" duration="2134000" />
+      <workItem from="1505267503886" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234211000" />
+    <option name="totallyTimeSpent" value="236291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -915,13 +941,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/hdu/HDU1879.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="2592">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hdu/HDU1087.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="960">
@@ -1199,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1656">
           <caret line="17" column="131" selection-start-line="17" selection-start-column="131" selection-end-line="17" selection-end-column="131" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,6 +1242,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#912#913#0" expanded="false" />
             <element signature="e#964#965#0" expanded="false" />
           </folding>
@@ -1280,11 +1299,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/broadfirstsearch/SurroundedRegions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7157895" vertical-offset="1320" max-vertical-offset="2160">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding>
-            <element signature="e#1317#1324#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2160">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/LongestValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6210526" vertical-offset="318" max-vertical-offset="1104">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
