@@ -136,8 +136,8 @@
       <file leaf-file-name="LargestDivisibleSubset.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/LargestDivisibleSubset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92429024" vertical-offset="1003" max-vertical-offset="1440">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31861198" vertical-offset="1003" max-vertical-offset="1440">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
               <folding>
                 <element signature="e#573#582#0" expanded="true" />
               </folding>
@@ -854,12 +854,12 @@
       <workItem from="1505132530766" duration="2134000" />
       <workItem from="1505267503886" duration="11793000" />
       <workItem from="1505389938074" duration="744000" />
-      <workItem from="1505627018993" duration="11275000" />
+      <workItem from="1505627018993" duration="11296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258622000" />
+    <option name="totallyTimeSpent" value="258643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1331,8 +1331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/dynamicprograming/LargestDivisibleSubset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92429024" vertical-offset="1003" max-vertical-offset="1440">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31861198" vertical-offset="1003" max-vertical-offset="1440">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding>
             <element signature="e#573#582#0" expanded="true" />
           </folding>
